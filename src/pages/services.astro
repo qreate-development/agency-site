@@ -1,0 +1,41 @@
+---
+import Layout from "../layouts/Layout.astro";
+import development from "../images/development.jpg";
+
+---
+
+<Layout title="Qreate Development - services" description="Web development and maintenance services">
+  <main class="py-10 px-5">
+    <h1 class="text-4xl max-w-4xl mx-auto pt-20 text-center">Our Services</h1>
+    <img src={development.src} alt="web development" class="mx-auto">
+    <p class="text-2xl max-w-4xl mx-auto py-5">Qreate Development is an all-in-one web and software development agency whose focus is helping small businesses build their online presence through the use of custom websites and software solutions. Our services include:</p>
+    <section class="py-20 max-w-6xl mx-auto">
+      <div class="max-w-3xl mx-auto">
+        <h1 class="text-3xl">Website Design & Development</h1>
+        <p>
+          Our developers will work with you to come up with a design system that
+          suits your brand. Once you are happy with the design, we move on to
+          the devopment phase of the project. All of our website are built from
+          the ground up with SEO in minde. We optimize images for faster loading
+          as well as include any relevant meta tags on your site.
+        </p>
+      </div>
+    </section>
+    <section class="py-20 max-w-6xl mx-auto">
+      <div class="max-w-3xl mx-auto">
+        <h1 class="text-3xl">Website Updates & Maintenance</h1>
+        <p>
+          We take care of you even after your project is completed. We offer website hosting, maintenance, and updates so you can focus on running your business! We take pride in building a long term relationship with our clients.
+        </p>
+      </div>
+    </section>
+    <section class="py-20 max-w-6xl mx-auto">
+      <div class="max-w-3xl mx-auto">
+        <h1 class="text-3xl">Custom Software Solutions</h1>
+        <p>
+          Need something more complicated than a simple website? We've got you covered. Our team of developers are skilled in working on custom software solutions built from the ground up. We will work closely with you to come up with your business requirements before we write our first line of code.
+        </p>
+      </div>
+    </section>
+  </main>
+</Layout>

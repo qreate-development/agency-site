@@ -1,0 +1,36 @@
+---
+import Header from "../components/Header";
+import logo from "../images/QD_icon_1(1).svg";
+
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content={description}
+    />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body class="">
+    <Header client:load />
+    <slot />
+    <footer class="max-w-6xl mx-auto px-5 py-20 bg-slate-900">
+      <img src={logo.src} alt="" class="max-w-[10%] mx-auto" />
+      <h1 class="text-center text-3xl text-white py-10">
+        Ready to get started?
+      </h1>
+      <a
+        href="mailto:qreatedevelopment@gmail.com"
+        class="flex justify-center bg-blue-600 max-w-sm mx-auto py-2 text-xl"
+        >Book your free consultation here</a
+      >
+    </footer>
+  </body>
+</html>

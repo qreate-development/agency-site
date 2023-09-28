@@ -1,0 +1,224 @@
+---
+import Layout from "../layouts/Layout.astro";
+import handshake from "../images/handshake.svg";
+import leads from "../images/leads.svg";
+import visibility from "../images/visibility.svg";
+import development from "../images/development.jpg";
+import responsive from "../images/responsive.webp";
+import seo from "../images/seo.webp";
+import fast_loading from "../images/fast_loading.webp";
+---
+
+<Layout
+  title="Qreate Development - premium web development services"
+  description="Qreate Development is a web and software development agency located in El Paso. Our goal is to help small to medium sized businesses establish and increase their online presence."
+>
+  <main class="max-w-6xl mx-auto pt-5">
+    <section
+      class="bg-[url(./src/images/hero-md-overlay.webp)] bg-cover bg-center h-[450px] rounded-none mt-10"
+    >
+      <div class="px-3 space-y-5 lg:px-20">
+        <h1 class="text-white text-2xl pt-10 md:pt-20">Qreate Development</h1>
+        <h1 class="text-4xl text-white max-w-2xl">
+          Premium web development services
+        </h1>
+        <p class="text-2xl text-white max-w-lg">
+          Work closely with our in-house developers to help you build a powerful
+          online presence.
+        </p>
+        <p class="text-slate-200 text-lg pb-8">Ready to get started?</p>
+        <a
+          href="mailto:qreatedevelopment@gmail.com"
+          class="bg-blue-600 py-3 px-5">Book your free consultation</a
+        >
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto py-20 px-3 space-y-10 bg-slate-200">
+      <h1 class="text-3xl text-center">About us</h1>
+      <p class="text-xl max-w-3xl mx-auto">
+        Qreate Development is a web and software development agency located in
+        El Paso. Our goal is to help small to medium sized businesses establish
+        and increase their online presence.
+      </p>
+      <h2 class="text-2xl text-center">
+        Why is having a powerful online presence important?
+      </h2>
+      <div
+        class="flex flex-col space-y-5 py-5 md:flex-row md:space-y-0 md:justify-between md:space-x-2"
+      >
+        <article
+          class="max-w-sm shadow-lg bg-slate-300 p-5 mx-auto md:max-w-xs md:mx-0"
+        >
+          <img src={visibility.src} alt="visibility" class="w-20" />
+          <p>
+            Having a powerful online presence increases your brand awareness and
+            visibility
+          </p>
+        </article>
+        <article
+          class="max-w-sm shadow-lg bg-slate-300 p-5 mx-auto md:max-w-xs md:mx-0"
+        >
+          <img src={leads.src} alt="leads" class="w-20" />
+          <p>
+            Having a powerful online presence helps you generate more leads and
+            attract more customers
+          </p>
+        </article>
+        <article
+          class="max-w-sm shadow-lg bg-slate-300 p-5 mx-auto md:max-w-xs md:mx-0"
+        >
+          <img src={handshake.src} alt="handshake" class="w-20" />
+          <p>
+            Having a powerful online presence helps establish trust and
+            demonstrate your expertise
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="max-w-6xl flex flex-col bg-slate-900 py-20 md:flex-row">
+      <img
+        src={development.src}
+        alt="web development"
+        class="p-5 overflow-hidden rounded-lg md:w-1/2"
+      />
+      <div
+        class="max-w-md mx-auto space-y-5 py-10 px-5 text-white md:px-0 md:w-1/2"
+      >
+        <h1 class="text-2xl">
+          Why choose us for your web development project?
+        </h1>
+        <ul class="list-disc">
+          <li>
+            <p>
+              We will work closely with you to come up with a custom design and
+              web solution that works for you and your business.
+            </p>
+          </li>
+          <li>
+            <p>
+              All of our websites are hand-coded by our in in-house developers.
+            </p>
+          </li>
+          <li>
+            <p>
+              We offer a free initial over the phone consultation and website
+              audit.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto py-20 bg-slate-200">
+      <h1 class="text-center text-3xl">Our services</h1>
+      <div class="grid md:grid-cols-2 gap-5 py-10 px-5">
+        <article class="max-w-sm mx-auto">
+          <h2 class="font-bold text-xl">Website Desing & Development</h2>
+          <p class="text-lg">
+            Our in-house developers will come up with a custom website design
+            that works for you and your business.
+          </p>
+        </article>
+        <article class="max-w-sm mx-auto">
+          <h2 class="font-bold text-xl">Website Updates & Maintenance</h2>
+          <p class="text-lg">
+            Need to update your site but don't know where to get started? We'll
+            take care of all the work for you.
+          </p>
+        </article>
+        <article class="max-w-sm mx-auto">
+          <h2 class="font-bold text-xl">Custom Software Solutions</h2>
+          <p class="text-lg">
+            Need a more custom business solution? We've got you covered!
+          </p>
+        </article>
+        <article class="max-w-sm mx-auto">
+          <h2 class="font-bold text-xl">
+            Website & Software Hosting Solutions
+          </h2>
+          <p class="text-lg">
+            Flexible hosting solutions that work for your business needs.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto py-20">
+      <h1 class="px-5 text-center text-3xl">Our website features include:</h1>
+      <div class="flex flex-col gap-5 justify-between px-5 py-10 md:flex-row">
+        <article class="max-w-sm shadow-lg p-5 mx-auto md:max-w-xs md:mx-0">
+          <img src={seo.src} alt="seo optimized websites" class="w-40" />
+          <h2 class="font-bold text-lg">On-page SEO</h2>
+          <p>Increase your brand visibility with our SEO-optimized websites</p>
+        </article>
+        <article class="max-w-sm shadow-lg p-5 mx-auto md:max-w-xs md:mx-0">
+          <img src={fast_loading.src} alt="Faster Load Times" class="w-40" />
+          <h2 class="font-bold text-lg">Faster Load Times</h2>
+          <p>
+            Faster loading websites improve user experience and can help drive
+            conversions
+          </p>
+        </article>
+        <article class="max-w-sm shadow-lg p-5 mx-auto md:max-w-xs md:mx-0">
+          <img
+            src={responsive.src}
+            alt="Fully Responsive Design"
+            class="w-40"
+          />
+          <h2 class="font-bold text-lg">Fully Responsive</h2>
+          <p>
+            Fully responsive websites that work seamlessly accross browsers and
+            devices
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="py-20 bg-slate-200">
+      <div class="max-w-3xl mx-auto text-center space-y-5">
+        <h1 class="max-w-xl mx-auto text-3xl">
+          Want to improve your website but don't know how?
+        </h1>
+        <p class="text-2xl">
+          We can help! Book a <span
+            ><a
+              href="/website-audit"
+              class="border-b-4 rounded-lg border-b-blue-600"
+              >free website audit</a
+            ></span
+          > and we'll point you in the right direction.
+        </p>
+      </div>
+    </section>
+
+    <section class="py-20">
+      <div class="max-w-3xl mx-auto space-y-5 px-5">
+        <h1 class="text-3xl text-center">
+          We take care of you from start to finish!
+        </h1>
+        <ol class="space-y-5 py-5 list-decimal">
+          <li>
+            <p class="text-xl">
+              We will closely with you during the initial discovery phase to
+              come up with a design strategy that works for you.
+            </p>
+          </li>
+          <li>
+            <p class="text-xl">
+              Once we come up with a design strategy that works we move on to
+              building the website.
+            </p>
+          </li>
+          <li>
+            <p class="text-xl">
+              Once the site is completed, we take care of the deployment and
+              hosting for you.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+  </main>
+</Layout>

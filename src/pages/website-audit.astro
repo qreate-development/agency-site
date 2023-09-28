@@ -1,0 +1,90 @@
+---
+import Layout from "../layouts/Layout.astro";
+import audit from "../images/audit.jpg";
+---
+
+<Layout
+  title="Website Audit"
+  description="Free website audit and initial consultation"
+>
+  <main class="pt-18">
+    <section class="py-10">
+      <div class="max-w-6xl mx-auto px-5 py-20 space-y-5 bg-slate-200">
+        <h1 class="text-center text-4xl max-w-2xl mx-auto">
+          Are you looking to improve your website but don't know where to start?
+        </h1>
+        <p class="text-center text-2xl text-[#0077B6]">
+          Book a free website audit and we'll tell you how.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="max-w-6xl mx-auto px-5 py-20 space-y-5">
+        <h1 class="text-3xl max-w-xl mx-auto">
+          How our high level website audit works
+        </h1>
+        <img src={audit.src} alt="website audit" class="max-w-[90%] mx-auto md:max-w-[80%]" />
+        <ul class="max-w-xl mx-auto space-y-5">
+          <li class="text-xl list-disc">
+            Our team of experts will review your website and check things such
+            as mobile responsiveness, technical issues, page speed, and
+            performance to determine if there are any areas of improvement
+          </li>
+          <li class="text-xl list-disc">
+            Once the website audit is complete, we will contact you to schedule
+            an over the phone consultation where we will share our findings with
+            you
+          </li>
+          <li class="text-xl list-disc">
+            During our initial consultation we will work closely with you to
+            come up with a web solution that works for you and your business<li>
+            </li>
+          </li>
+        </ul>
+        <div class="bg-slate-200 py-28 px-5 max-w-6xl">
+          <p class="text-3xl text-center max-w-3xl mx-auto">
+            We're here to help make sure your website is well designed and built
+            to <span class=" border-b-4 border-[#0077b6]"
+              >help your business succeed!</span>
+          </p>
+        </div>
+        <section>
+          <div class="max-w-6xl mx-auto px-5 py-20 space-y-10">
+            <h1 class="text-3xl text-center max-w-xl mx-auto">
+              Frequently Asked Questions
+            </h1>
+            <section class="max-w-lg mx-auto space-y-10">
+              <article>
+                <h2 class="text-2xl text-[#0077b6]">
+                  Do I have to pay for the website audit?
+                </h2>
+                <p class="text-xl">
+                  Our website audits and initial phone consultation are
+                  completely free.
+                </p>
+              </article>
+              <article>
+                <h2 class="text-2xl text-[#0077b6]">
+                  How long does a website audit take?
+                </h2>
+                <p class="text-xl">
+                  Our website audit process takes 1-2 business days
+                </p>
+              </article>
+              <article>
+                <h2 class="text-2xl text-[#0077b6]">
+                  What do you check for during a website audit?
+                </h2>
+                <p class="text-xl">
+                  Mobile responsiveness, possible technical SEO issues, page
+                  performance are just some of the things we check.
+                </p>
+              </article>
+            </section>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+</Layout>

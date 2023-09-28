@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.774085,0,0,0.774085,50,50)">
+        <g id="QD_icon.svg" transform="matrix(1,0,0,1,-250,-250)">
+            <rect id="Artboard1" x="0" y="0" width="500" height="500" style="fill:none;"/>
+            <g id="Artboard11" serif:id="Artboard1">
+                <g>
+                    <path d="M192.757,284.122L250,255.5L307.243,284.122L250,312.743L192.757,284.122" style="fill:rgb(62,137,20);"/>
+                    <path d="M192.757,218.878L250,190.257L307.243,218.878L250,247.5L192.757,218.878" style="fill:rgb(255,195,0);"/>
+                    <path d="M252.5,248.75L309.743,220.128L309.743,277.372L252.5,305.993L252.5,248.75" style="fill:rgb(191,6,3);"/>
+                    <path d="M190.257,220.128L190.257,277.372L247.5,305.993L247.5,248.75L190.257,220.128" style="fill:rgb(0,119,182);"/>
+                </g>
+            </g>
+        </g>
+        <g id="QD_icon.svg1" serif:id="QD_icon.svg">
+        </g>
+    </g>
+</svg>
